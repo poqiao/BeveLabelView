@@ -3,7 +3,7 @@
 ![image](https://github.com/poqiao/BeveLabelView/blob/1.0.0/app/src/main/res/mipmap-xxhdpi/model.png)<br>
 ### 引入下面依赖</br>
 ```Java
-implementation 'com.github.poqiao:PwCodeEditView:v1.0.1'
+   implementation 'com.github.poqiao:BeveLabelView:1.0.0'
 ```
 默认模式:默认个数是6个，带边框，显示圆点，圆点和边框都为黑色
 ```Java
