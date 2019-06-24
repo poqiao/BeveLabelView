@@ -2,7 +2,7 @@
 ![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode2.jpg)<br>
 ### 引入下面依赖</br>
 ```Java
-   implementation 'com.github.poqiao:BeveLabelView:1.0.0'
+   implementation 'com.github.poqiao:BeveLabelView:1.0.1'
 ```
 ```Java
         <com.mxq.pq.BeveLabelView
