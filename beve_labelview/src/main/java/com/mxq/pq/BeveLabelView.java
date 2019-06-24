@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.support.annotation.Nullable;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
@@ -53,8 +54,11 @@ public class BeveLabelView extends View {
         mMode = array.getInt (R.styleable.BeveLabelView_label_mode, 1);
         mPaint = new Paint (Paint.ANTI_ALIAS_FLAG);
         mPaint.setAntiAlias (true);
-
         path = new Path ();
+        if (TextUtils.isEmpty (mText))
+        {
+            mText  = "Label";
+        }
     }
 
     public BeveLabelView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
@@ -145,10 +149,8 @@ public class BeveLabelView extends View {
         mPaint.setColor (mTextColor);
         canvas.translate (mX, mY);
         canvas.rotate (mRotate);
-        Paint.FontMetrics font = mPaint.getFontMetrics ();//用来获取文字的正确位置
-        float top = font.top;//为基线到字体上边框的距离,即上图中的top
-        float bottom = font.bottom;//为基线到字体下边框的距离,即上图中的bottom
-        int baseLineY = (int) (-top / 2 - bottom / 2);//基线中间点的y轴计算公式
+
+        int baseLineY = -(int) (mPaint.descent ()+mPaint.ascent ())/2;//基线中间点的y轴计算公式
         canvas.drawText (mText, 0, baseLineY, mPaint);
 
     }
