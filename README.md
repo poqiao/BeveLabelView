@@ -1,5 +1,5 @@
 # BeveLabelView
-![image](https://github.com/poqiao/BeveLabelView/blob/1.0.0/app/src/main/res/mipmap-xhdpi/model.png)<br>
+![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/model2.png)<br>
 ### 引入下面依赖</br>
 ```Java
    implementation 'com.github.poqiao:BeveLabelView:1.0.0'
@@ -49,6 +49,6 @@
         </attr>
     </declare-styleable>
      <br>
-    ![image](https://github.com/poqiao/BeveLabelView/blob/1.0.0/app/src/main/res/mipmap-xhdpi/model1.png)<br></br>
+    ![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode1.jpg)<br></br>
 
 
