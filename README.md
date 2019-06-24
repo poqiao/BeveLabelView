@@ -1,4 +1,4 @@
-# BeveLabelView
+# 斜角标签BeveLabelView
 ![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode2.jpg)<br>
 ### 引入下面依赖</br>
 ```Java
