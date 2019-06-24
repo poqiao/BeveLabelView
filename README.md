@@ -49,6 +49,5 @@
             <enum name="right_bottom_fill" value="7"/>
         </attr>
     </declare-styleable>
-    ```
 
 
