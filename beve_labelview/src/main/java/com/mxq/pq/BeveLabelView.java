@@ -150,7 +150,7 @@ public class BeveLabelView extends View {
         canvas.translate (mX, mY);
         canvas.rotate (mRotate);
 
-        int baseLineY = -(int) (mPaint.descent ()+mPaint.ascent ())/2;//基线中间点的y轴计算公式
+        int baseLineY = -(int) (mPaint.descent ()+mPaint.ascent ())/2;//文字居中
         canvas.drawText (mText, 0, baseLineY, mPaint);
 
     }
