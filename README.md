@@ -20,6 +20,35 @@
 ```
 <br>可设置背景和文字颜色，文字大小，圆角大小，是否填满，上下左右位置</br>
 
-## [控件属性](https://github.com/poqiao/BeveLabelView/blob/1.0.0/beve_labelview/src/main/res/values/attrs.xml)
+## 控件属性
+```java
+   <!--斜角标签-->
+    <declare-styleable name="BeveLabelView">
+        <!--背景颜色-->
+        <attr name="label_bg_color" format="color"/>
+        <!--文字-->
+        <attr name="label_text" format="string"/>
+        <!-- 文字颜色-->
+        <attr name="label_text_color" format="color"/>
+        <!--文字大小-->
+        <attr name="label_text_size" format="dimension"/>
+
+        <attr name="label_length" format="dimension"/>
+        <!--   圆角-->
+        <attr name="label_corner" format="dimension"/>
+
+        <attr name="label_mode">
+            <!--   fill是沾满整个，-->
+            <enum name="left_top" value="0"/>
+            <enum name="right_top" value="1"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="right_bottom" value="3"/>
+            <enum name="left_top_fill" value="4"/>
+            <enum name="right_top_fill" value="5"/>
+            <enum name="left_bottom_fill" value="6"/>
+            <enum name="right_bottom_fill" value="7"/>
+        </attr>
+    </declare-styleable>
+    ```
 
 
