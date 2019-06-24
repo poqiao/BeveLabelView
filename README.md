@@ -1,10 +1,9 @@
 # BeveLabelView
-![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/model2.png)<br>
+![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode2.jpg)<br>
 ### 引入下面依赖</br>
 ```Java
    implementation 'com.github.poqiao:BeveLabelView:1.0.0'
 ```
-默认模式:默认个数是6个，带边框，显示圆点，圆点和边框都为黑色
 ```Java
         <com.mxq.pq.BeveLabelView
             android:layout_width="80dp"
@@ -48,7 +47,7 @@
             <enum name="right_bottom_fill" value="7"/>
         </attr>
     </declare-styleable>
-     <br>
-    ![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode1.jpg)<br></br>
+```
+![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode1.jpg)
 
 
