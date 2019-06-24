@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="40dp"
+            app:label_mode="left_top"
+            app:label_text="标签"
+            app:label_text_color="#fff"
+            app:label_text_size="15sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            app:label_corner="25dp"
+            app:label_length="45dp"
+            app:label_bg_color="#00ffae"
+            app:label_mode="right_top"
+            app:label_text="折扣"
+            app:label_text_color="#020202"
+            app:label_text_size="20sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/aaaaa">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="25dp"
+            app:label_mode="left_top"
+            app:label_text="一只猪"
+            app:label_bg_color="#e42571"
+            app:label_text_color="#ffffff"
+            app:label_text_size="11sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            app:label_corner="25dp"
+            app:label_length="30dp"
+            app:label_mode="right_top"
+            app:label_text="ssss"
+            app:label_bg_color="#ffc800"
+            app:label_text_color="#0800ff"
+            app:label_text_size="13sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="45dp"
+            app:label_mode="left_top_fill"
+            app:label_text="GitHub"
+            app:label_bg_color="#2d1cae"
+            app:label_text_color="#ffff00"
+            app:label_text_size="23sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            app:label_length="20dp"
+            app:label_mode="right_top_fill"
+            app:label_text="哈哈哈"
+            app:label_text_color="#fff"
+            app:label_text_size="11sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/fengjing4">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="45dp"
+            app:label_mode="left_top_fill"
+            app:label_corner="10dp"
+            app:label_text="秋风"
+            app:label_text_color="#fff"
+            app:label_text_size="25sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            app:label_length="40dp"
+            app:label_mode="right_top_fill"
+            app:label_text="扫落叶"
+            app:label_bg_color="#fff"
+            app:label_corner="20dp"
+            app:label_text_color="#00d4ff"
+            app:label_text_size="11sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="45dp"
+            app:label_mode="left_bottom"
+            app:label_text="疾速"
+            app:label_bg_color="#ff4ee1"
+            app:label_text_color="#fff"
+            app:label_text_size="22sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            app:label_length="45dp"
+            app:label_mode="right_bottom"
+            app:label_text="Xiaqia"
+            app:label_text_color="#fff"
+            app:label_text_size="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/fengjing2">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="45dp"
+            app:label_mode="left_bottom"
+            app:label_text="小小"
+            app:label_text_color="#fff"
+            app:label_text_size="22sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            app:label_length="45dp"
+            app:label_mode="right_bottom"
+            app:label_text="大大"
+            app:label_bg_color="#797979"
+            app:label_text_color="#fff"
+            app:label_text_size="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000">
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            app:label_length="45dp"
+            app:label_mode="left_bottom_fill"
+            app:label_text="模式"
+            app:label_bg_color="#00e6ff"
+            app:label_text_color="#fff"
+            app:label_text_size="20sp" />
+
+        <com.mxq.pq.BeveLabelView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            app:label_length="45dp"
+            app:label_mode="right_bottom_fill"
+            app:label_text="优秀"
+            app:label_bg_color="#00ff37"
+            app:label_text_color="#fff"
+            app:label_corner="40dp"
+            app:label_text_size="20sp" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
