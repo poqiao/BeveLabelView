@@ -1,5 +1,4 @@
 # BeveLabelView
-# PwCodeEditView
 ![image](https://github.com/poqiao/BeveLabelView/blob/1.0.0/app/src/main/res/mipmap-xxhdpi/model.png)<br>
 ### 引入下面依赖</br>
 ```Java
@@ -49,5 +48,7 @@
             <enum name="right_bottom_fill" value="7"/>
         </attr>
     </declare-styleable>
+     <br>
+    ![image](https://github.com/poqiao/BeveLabelView/blob/1.0.0/app/src/main/res/mipmap-xxhdpi/model1.png)<br></br>
 
 
