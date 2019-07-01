@@ -2,7 +2,7 @@
 ![image](https://github.com/poqiao/BeveLabelView/blob/master/app/src/main/res/mipmap-xhdpi/mode2.jpg)<br>
 ### 引入下面依赖</br>
 ```Java
-   implementation 'com.github.poqiao:BeveLabelView:1.0.1'
+   implementation 'com.github.poqiao:BeveLabelView:1.0.2'
 ```
 ```Java
         <com.mxq.pq.BeveLabelView
@@ -20,14 +20,14 @@
 
 ## 控件属性
 ```java
-   <!--斜角标签-->
+      <!--斜角标签-->
     <declare-styleable name="BeveLabelView">
         <!--背景颜色-->
-        <attr name="label_bg_color" format="color"/>
+        <attr name="label_bg_color" format="color|reference"/>
         <!--文字-->
         <attr name="label_text" format="string"/>
         <!-- 文字颜色-->
-        <attr name="label_text_color" format="color"/>
+        <attr name="label_text_color" format="color|reference"/>
         <!--文字大小-->
         <attr name="label_text_size" format="dimension"/>
 
