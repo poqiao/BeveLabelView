@@ -46,18 +46,21 @@
         android:layout_height="80dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="10dp"
-        android:background="@mipmap/aaaaa">
+        android:background="#ff0000">
+
 
         <com.mxq.pq.BeveLabelView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_alignParentLeft="true"
-            app:label_length="25dp"
-            app:label_mode="left_top"
-            app:label_text="一只猪"
-            app:label_bg_color="#e42571"
-            app:label_text_color="#ffffff"
-            app:label_text_size="11sp" />
+            app:label_length="45dp"
+            app:label_mode="left_bottom_fill"
+            app:label_text="模式"
+            app:label_bg_color="#00e6ff"
+            app:label_corner="40dp"
+            app:label_text_color="#fff"
+            app:label_text_size="20sp" />
+
 
         <com.mxq.pq.BeveLabelView
             android:layout_width="70dp"
@@ -129,9 +132,9 @@
             app:label_length="40dp"
             app:label_mode="right_top_fill"
             app:label_text="扫落叶"
-            app:label_bg_color="#fff"
+            app:label_bg_color="#e21459"
             app:label_corner="20dp"
-            app:label_text_color="#00d4ff"
+            app:label_text_color="#0026ff"
             app:label_text_size="11sp" />
 
     </RelativeLayout>

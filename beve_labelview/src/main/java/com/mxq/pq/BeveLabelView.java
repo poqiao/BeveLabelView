@@ -12,10 +12,13 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-/**
-*@author poqiao
- * @date  2019/06/24
-*/
+import com.mxq.pq.R;
+
+
+/*
+ *Create by PoQiaO on 2019/7/12
+ */
+
 public class BeveLabelView extends View {
     private final static int MODE_LEFT_TOP = 0;
     private final static int MODE_RIGHT_TOP = 1;
@@ -149,8 +152,7 @@ public class BeveLabelView extends View {
         mPaint.setColor (mTextColor);
         canvas.translate (mX, mY);
         canvas.rotate (mRotate);
-
-        int baseLineY = -(int) (mPaint.descent ()+mPaint.ascent ())/2;//文字居中
+        int baseLineY = -(int) (mPaint.descent ()+mPaint.ascent ())/2;//基线中间点的y轴计算公式
         canvas.drawText (mText, 0, baseLineY, mPaint);
 
     }
